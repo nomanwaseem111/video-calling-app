@@ -4,8 +4,8 @@ import {
   Routes,
 } from "react-router-dom";
 
-import Home from "./pages/Home/Home"
-import Room from "./pages/Room/Room";
+import Home from "./pages/Home"
+import Room from "./pages/Room";
 
 function App() {
   return (
