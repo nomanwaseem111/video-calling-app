@@ -9,7 +9,7 @@ export default function Home() {
     // Handle Join Room Function 
     const handleJoinRoom = useCallback(() => {
         if (!value) {
-            return alert('Please Enter Room Id')
+            return alert('Please Enter Room Id ')
         }
         navigate(`/room/${value}`);
     })
